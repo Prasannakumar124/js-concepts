@@ -1,0 +1,41 @@
+<!-- <html>
+    <title>
+        Form Validation
+    </title>
+    <head>
+        <script type="text/javascript">
+             function validatemyform(){
+                var uname=document.getElementById("user");
+                var pwd=document.getElementById("pass");
+
+                if(uname.value.trim()==""){
+                    alert("User name cannot be empty");
+                    uname.style.border="solid 3px red";
+                    document.getElementById("ulabel").style.visibility="visible";
+                    return false;
+                }else if(pwd.value.trim()==""){
+                    alert("Password cannot be empty");
+                    pwd.style.border="solid 3px red";
+                    document.getElementById("plabel").style.visibility="visible";
+                    return false;
+                }else{
+                    return true;
+                }
+             }
+            </script>
+    </head>
+    <body>
+        <form onsubmit="return validatemyform()" action="new.html">
+            <input id="user" type="text" placeholder="UserName"/>
+            <label id="ulabel" type="label" style="color:red;visibility: hidden">Invalid UserName</label>
+           <br><br>
+            <input id="pass" type="password" placeholder="Password"/>
+            <label id="plabel" type="label" style="color:red;visibility: hidden">Invalid Password</label>
+
+            <br><br>
+            <button type="submit">Submit</button>
+            
+
+        </form>
+    </body>
+</html> -->
